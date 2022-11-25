@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    height: 60vh;
+    width: 30vw;
+    background-color: darkblue;
+    border-radius: 50px;
+    flex-direction: column-reverse;
+flr
+    
+}
+
+.container > main{
+
+    align-self: center;
+
+}
+
+#grid-container{
+    display: grid;
+   /* border: 1px solid black;*/
+    color: azure;
+    grid-template-columns: 80px 80px 90px 90px;
+    grid-column-gap: 23px;
+    grid-row-gap: 30px;
+
+}
+
+.box1{
+     column-width: auto;
+}
+
+.grid-item{
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: blueviolet;
+    text-align: center;
+    grid-area: span;
+}
+
+
+.boss{
+    grid-column: 1/5;
+    height: 6em;
+    text-align-last: right;
+    align-items: flex-start;
+}
